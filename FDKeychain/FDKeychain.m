@@ -1,11 +1,10 @@
 #import "FDKeychain.h"
-
-@import Security;
+#import < Security/Security.h>
 
 
 #pragma mark - Constants
 
-NSString * const FDKeychainErrorDomain = @"com.1414degrees.keychain";
+NSString * const FDKeychainErrorDomain = @"com.gpsinsights.keychain";
 
 
 #pragma mark - Class Definition
